@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #B67721;
+}
+
+#clock-container {
+    background-color: #7F5417;
+}
+
+#clock {
+    background-color: burlywood;
+    width: 812px;
+    height: 512px;
+    margin: 100px auto;
+    position: relative;
+}
+
+
+#block-2,
+#block-1a,
+#block-1b,
+#block-3,
+#block-5 {
+    position: absolute;
+    background-color: #DED29E;
+    border: 2px solid black;
+}
+
+#block-2 {
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 204px;
+}
+
+#block-1a {
+    top: 0;
+    left: 204px;
+    width: 100px;
+    height: 100px;
+}
+
+#block-1b {
+    top: 104px;
+    left: 204px;
+    width: 100px;
+    height: 100px;
+}
+
+#block-3 {
+    top: 208px;
+    left: 0;
+    width: 304px;
+    height: 300px;
+}
+
+#block-5 {
+    top: 0;
+    right: 0;
+    width: 500px;
+    height: 508px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
