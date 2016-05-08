@@ -1,0 +1,22 @@
+Solutions To Problems:
+
+Java:
+
+Reflection - In order to be able to load classes (.class) from a folder, those classes
+	must NOT be inside other packages, or if they are, they should be inside the corresponding folders
+	
+Varianta cu rr
+
+
+JavaFX - you can't manipulate gui from another thread, only from javafx threads
+	As a solution, use: 
+	Platform.runLater(new Runnable() {
+                    @Override
+                    public void run() {
+							// code that manipulates gui
+					} 
+            });
+
+
+
+Python:
